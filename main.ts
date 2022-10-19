@@ -20,6 +20,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     number += 10
+    cout += 10
     basic.showNumber(number)
 })
 basic.forever(function () {
