@@ -17,6 +17,9 @@ input.onButtonPressed(Button.AB, function () {
         cout += -1
         basic.showNumber(cout)
     }
+    while (cout == 0) {
+        basic.clearScreen()
+    }
 })
 input.onButtonPressed(Button.B, function () {
     number += 10
